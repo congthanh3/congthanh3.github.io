@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For Mobile: */
+  .col-a-12 {width: 100%;}
+ 
+
+  .Navigation {
+    background-color: #556270;
+    width: 100%;
+    display: flex;
+    margin: 0;
+  }
+  .Navigation li {
+    background-color: #556270;
+  }
+
+  .Navigation ul {
+    background-color:#556270;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  ul{
+    list-style: none;
+  }
+  ul li {
+    display: inline-block;
+    padding: 13px;
+  }
+
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.4em;
+  }
+  .lodging {
+    padding:10px 30px 0 10px;
+  }
+  .lodging img{
+    display: none;
+  }
+  .lodging p {
+    font-size: 0.6em;
+    padding-right: 40px;
+  }
+  .bodypart {
+    padding:10px 30px 0 10px;
+  }
+  img {
+    max-width :100%;
+    padding: 20px 0;
+    max-height: 100%;
+  }
+  .botpart {
+    padding-left:15px;
+  }
+  .bodypart p {
+    font-size: 0.6em;
+  }
+  .botpart h4 {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  .botpart p {
+    font-size: 0.6em;
+  }
+  .botpart a {
+    color: black;
+    font-size: 0.6em;
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   /* For tablets: */
+  .col-s-6 {width: 50%;}
+  .col-s-12 {width: 100%;}
+  
+  .Navigation {
+    margin: 0;
+    display: flex;
+  }
+  .Navigation ul {
+    background-color: #556270;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+  }   
+  .Navigation li {
+    background-color: #556270;
+    float: left;
+  }
+  
+  .Navigation li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  #navileft li {
+    padding: 25px 0 10px 15px;
+  }
+  #naviright {
+    padding-left: 150px;
+  }
+  #naviright li {
+    padding: 25px 0 10px 15px;
+  }
+
+  .lodging {
+  padding-top: 20px;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(218, 211, 211);
+  }
+  .lodging img {
+    display: none;
+  }
+  .lodging .midleft1 {
+    font-size: 2em;
+    color:black;
+  }
+  .lodging .midleft2 {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    color:grey;
+  }
+  .bodypart {
+  padding: 0 15px;
+  }
+  .bodypart h1 {
+    padding-top: 15px;
+  }
+
+  .bodypart p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    color:grey;
+  }
+  .bodypart .box {
+    float: left;
+  } 
+  .bodypart img {
+    width: 90%;
+    padding-bottom: 60px;
+  }
+  .bodypart .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .botpart {
+    clear: left;
+    background-color: white;
+    margin-left: 15px;
+    padding-bottom: 30px;
+  }
+    
+  .botpart .box {
+        float: left;
+        padding: 30px 0 ;
+      }
+  .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+  
+  .botpart h4{
+      font-weight: bold;
+      font-size: 2em;
+      margin: 0;
+    }
+  .botpart p {
+    font-size: 0.8em;
+    color: grey;
+  }
+  .botpart a {
+    color: #1672a7;
+    padding-bottom: 60px;
+    }
+  
+}
+
+@media only screen and (min-width: 992px) {
+   /* For desktop: */
+   .col-4 {width: 33.33%;}
+
+  .Navigation {
+    margin: 0;
+    display: flex;
+  }
+  .Navigation ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+  }   
+  .Navigation li {
+    background-color: white;
+    float: left;
+  }
+  
+  .Navigation li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
+  }
+  #navileft li {
+    padding: 25px 0;
+  }
+  #navileft {
+    padding-left: 40px;
+  }
+  #naviright {
+    padding-left: 30%;
+  }
+  #naviright li {
+    padding: 25px 0 ;
+  }
+  .lodging {
+    position: relative;
+  }    
+  .lodging img {
+  position: relative;
+  width:100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  }
+  img {
+    width:100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .lodging .midleft1 {
+    position: absolute;
+    top: 22%;
+    color: white;
+    font-size: 3.5vw;
+    font-family: 'Hepta Slab', serif;
+    left: 10%;
+  }
+  .lodging .midleft2 {
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 10%;
+  }
+  /*below is body part*/
+
+  .bodypart {
+    background-color:  rgb(228, 228, 228);
+    padding-left: 40px;
+    border-bottom: 1cm;
+  }
+  .bodypart h1 {
+  margin-top: -5px;
+  padding-top: 40px;
+  }
+  .bodypart p {
+    padding-bottom: 30px;
+  }
+  /*photo*/
+  .bodypart .box {
+    float: left;
+    padding: 0 35px 30px 0;
+  } 
+  .bodypart .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .bodypart img {
+    padding-bottom: 30px;;
+  }
+  /*below is bottom part*/
+
+  .botpart {
+  background-color: rgb(240, 240, 240);
+  padding-left: 35px;
+  }
+  
+  .botpart .box {
+    float: left;
+    padding: 40px 10px 50px 0;
+    background-color: rgb(240, 240, 240);
+  }
+
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+  .botpart h4{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .botpart p {
+    font-size: 0.9em;
+  }
+  .botpart a {
+    color: #09a2fa;
+  }
+
+}  
