@@ -126,8 +126,6 @@
     font-weight: bold;
     font-size: 41px;
     line-height: 50px;
-    /* identical to box height */
-
 
     color: #FFFFFF;
   }
@@ -148,14 +146,17 @@
 
     color: #FFFFFF;
   }
-  .clearfix{
+
+  .clearfix {
     position: relative;
   }
+
   .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
+
   .box1 {
     position: absolute;
     top: 400px;
@@ -302,6 +303,7 @@
     height: 195px;
     background-color: rgba(0, 0, 0, 0.7);
   }
+
 
   .icon1 {
     float: left;
@@ -482,9 +484,11 @@
     text-align: center;
     color: #FFFFFF;
   }
-  .clearfix{
+
+  .clearfix {
     position: relative;
   }
+
   .clearfix::after {
     content: "";
     clear: both;
@@ -549,6 +553,7 @@
   .box2 span:hover {
     color: #000000;
   }
+
   article {
     position: relative;
     width: 1440px;
@@ -675,7 +680,7 @@
 
   .copyright {
     float: right;
-    padding: 45px ;
+    padding: 45px;
     list-style: none;
     font-family: Montserrat;
     font-style: normal;
