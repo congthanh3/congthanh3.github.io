@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+  main {
+    background-image: url(https://i0.wp.com/purehope.net/wp-content/uploads/2020/05/jeshoots-com-pUAM5hPaCRI-unsplash-scaled.jpg?fit=2560%2C1707&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 414px;
+    height: 120vh;
+    z-index: -1;
+  }
+
+  .nav {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .logo {
+    list-style: none;
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 19px;
+    top: 41px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .but1 {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 82px;
+    height: 30px;
+    left: 200px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .but2 {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 91px;
+    height: 30px;
+    left: 200px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .but3 {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 137px;
+    height: 30px;
+    left: 200px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+
+  .dots {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+  }
+
+  .dots img {
+    width: 100px;
+    height: 90px;
+  }
+
+  .middle {
+    position: relative;
+    width: 414px;
+    height: 105vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    position: absolute;
+    width: 285px;
+    height: 50px;
+    left: 64px;
+    top: 80px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 50px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+  }
+
+  .middle .text {
+    position: absolute;
+    width: 319px;
+    height: 198px;
+    left: 47px;
+    top: 200px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  .clearfix{
+    position: relative;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .box1 {
+    position: absolute;
+    top: 400px;
+    left: 18%;
+    width: 267px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid white;
+  }
+
+  .box1:hover {
+    background-color: #FFFFFF;
+  }
+
+  .box1 span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+  }
+
+  .box1 span:hover {
+    color: #000000;
+  }
+
+
+  .box2 {
+    position: absolute;
+    top: 530px;
+    left: 18%;
+    width: 267px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid white;
+  }
+
+  .box2:hover {
+    background-color: #FFFFFF;
+  }
+
+  .box2 span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+  }
+
+  .box2 span:hover {
+    color: #000000;
+  }
+
+  /* .but4 span {
+  position: absolute;
+  width: 177px;
+  height: 30px;
+  left: 127px;
+  top: 533px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.but4 span:hover {
+  color: #000000;
+}
+
+.but5 span {
+  position: absolute;
+  width: 106px;
+  height: 30px;
+  left: 163px;
+  top: 630px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.but5 span:hover {
+  color: #000000;
+} */
+
+  article {
+    position: relative;
+    width: 414px;
+    height: 100vh;
+    bottom: 100px;
+  }
+
+  h2 {
+    padding: 200px 0 50px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .box {
+
+    float: left;
+    width: 306px;
+    margin: 25px 51px;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 3px solid #000000;
+  }
+
+  .box h3 {
+    padding: 60px 0 30px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .box p {
+    padding: 0 24px 80px 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+
+  .but6 {
+    margin: auto;
+    width: 240px;
+    height: 75px;
+    border: 5px solid #000000;
+  }
+
+  .but6:hover {
+    background-color: #000000;
+  }
+
+  .but6 span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 20px 25px;
+    display: inline-block;
+    line-height: normal;
+    color: #000000;
+  }
+
+  .but6 span:hover {
+    color: #ffffff;
+  }
+
+  footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    width: 414px;
+    height: 195px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .icon1 {
+    float: left;
+    margin-top: 4vh;
+    margin-left: 25%;
+    padding: 20px 20px;
+    list-style: none;
+  }
+
+  .icon1 img {
+    width: 30.55px;
+    height: 25.52px;
+  }
+
+  .icon2 {
+    float: left;
+    margin-top: 4vh;
+    padding: 20px 20px;
+    list-style: none;
+  }
+
+  .icon2 img {
+    width: 30.55px;
+    height: 25.52px;
+  }
+
+  .icon3 {
+    float: left;
+    margin-top: 4vh;
+    padding: 20px 20px;
+    list-style: none;
+  }
+
+  .icon3 img {
+    width: 30.55px;
+    height: 25.52px;
+  }
+
+  .copyright {
+    position: absolute;
+    display: block;
+
+    list-style: none;
+    margin-top: 130px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For desktop: */
+  main {
+    background-image: url(https://i0.wp.com/purehope.net/wp-content/uploads/2020/05/jeshoots-com-pUAM5hPaCRI-unsplash-scaled.jpg?fit=2560%2C1707&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .nav {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .logo {
+    position: absolute;
+    list-style: none;
+    width: 156px;
+    height: 30px;
+    left: 67px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+  }
+
+  .but1 {
+    position: absolute;
+    list-style: none;
+    width: 82px;
+    height: 30px;
+    left: 932px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .but2 {
+    position: absolute;
+    list-style: none;
+    width: 91px;
+    height: 30px;
+    left: 1080px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .but3 {
+    position: absolute;
+    list-style: none;
+    width: 137px;
+    height: 30px;
+    left: 1237px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .dots {
+    position: absolute;
+    left: 1237px;
+    top: 40px;
+    display: none;
+  }
+
+  .middle {
+    position: relative;
+    width: 1440px;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    position: absolute;
+    width: 596px;
+    height: 98px;
+    left: 423px;
+    top: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 98px;
+    color: #FFFFFF;
+  }
+
+  .middle .text {
+    position: absolute;
+    width: 984px;
+    height: 90px;
+    left: 228px;
+    top: 260px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .clearfix{
+    position: relative;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    width: 267px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid white;
+  }
+
+  .box1:hover {
+    background-color: #FFFFFF;
+  }
+
+  .box1 span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+  }
+
+  .box1 span:hover {
+    color: #000000;
+  }
+
+
+  .box2 {
+    position: absolute;
+    top: 400px;
+    right: 30%;
+    width: 267px;
+    float: right;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid white;
+  }
+
+  .box2:hover {
+    background-color: #FFFFFF;
+  }
+
+  .box2 span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+  }
+
+  .box2 span:hover {
+    color: #000000;
+  }
+  article {
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    bottom: 300px;
+  }
+
+  h2 {
+    padding: 500px 0 200px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .box {
+    top: 200px;
+    float: left;
+    width: 25%;
+    margin: 0 60px 0 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 3px solid #000000;
+  }
+
+  .box h3 {
+    padding: 60px 0 30px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .box p {
+    padding: 0 24px 80px 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+
+  .but6 {
+    margin: auto;
+    width: 240px;
+    height: 75px;
+    border: 5px solid #000000;
+  }
+
+  .but6:hover {
+    background-color: #000000;
+  }
+
+  .but6 span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 25px;
+    display: inline-block;
+    line-height: normal;
+    color: #000000;
+  }
+
+  .but6 span:hover {
+    color: #ffffff;
+  }
+
+  footer {
+    clear: both;
+    position: relative;
+    height: 250px;
+    margin-top: -100px;
+    width: 1440px;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .icon1 {
+    float: left;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    padding: 20px 20px;
+    list-style: none;
+  }
+
+  .icon1 img {
+    width: 29.17px;
+    height: 29.17px;
+  }
+
+  .icon2 {
+    float: left;
+    margin-top: 4vh;
+    padding: 20px 20px;
+    list-style: none;
+  }
+
+  .icon2 img {
+    width: 29.17px;
+    height: 29.17px;
+  }
+
+  .icon3 {
+    float: left;
+    margin-top: 4vh;
+    padding: 20px 20px;
+    list-style: none;
+  }
+
+  .icon3 img {
+    width: 29.17px;
+    height: 29.17px;
+  }
+
+  .copyright {
+    float: right;
+    padding: 45px ;
+    list-style: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
