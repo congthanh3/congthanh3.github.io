@@ -40,7 +40,7 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-
+    cursor: pointer;
     color: #FFFFFF;
   }
 
@@ -157,7 +157,7 @@
     display: table;
   }
 
-  .box1 {
+  .but4 {
     position: absolute;
     top: 400px;
     left: 18%;
@@ -166,13 +166,14 @@
     padding: 20px;
     text-align: center;
     border: 3px solid white;
+    cursor: pointer;
   }
 
-  .box1:hover {
+  .but4:hover {
     background-color: #FFFFFF;
   }
 
-  .box1 span {
+  .but4 span {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -182,12 +183,12 @@
     color: #FFFFFF
   }
 
-  .box1 span:hover {
+  .but4 span:hover {
     color: #000000;
   }
 
 
-  .box2 {
+  .but5 {
     position: absolute;
     top: 530px;
     left: 18%;
@@ -196,13 +197,14 @@
     padding: 20px;
     text-align: center;
     border: 3px solid white;
+    cursor: pointer;
   }
 
-  .box2:hover {
+  .but5:hover {
     background-color: #FFFFFF;
   }
 
-  .box2 span {
+  .but5 span {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -212,7 +214,7 @@
     color: #FFFFFF
   }
 
-  .box2 span:hover {
+  .but5 span:hover {
     color: #000000;
   }
 
@@ -273,6 +275,7 @@
     width: 240px;
     height: 75px;
     border: 5px solid #000000;
+    cursor: pointer;
   }
 
   .but6:hover {
@@ -391,7 +394,8 @@
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    cursor: pointer;
   }
 
   .but1 {
@@ -408,6 +412,7 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
   }
 
   .but2 {
@@ -424,6 +429,7 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
   }
 
   .but3 {
@@ -440,6 +446,7 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
   }
 
   .dots {
@@ -495,7 +502,7 @@
     display: table;
   }
 
-  .box1 {
+  .but4 {
     position: absolute;
     top: 400px;
     left: 30%;
@@ -504,13 +511,14 @@
     padding: 20px;
     text-align: center;
     border: 3px solid white;
+    cursor: pointer;
   }
 
-  .box1:hover {
+  .but4:hover {
     background-color: #FFFFFF;
   }
 
-  .box1 span {
+  .but4 span {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -520,12 +528,12 @@
     color: #FFFFFF
   }
 
-  .box1 span:hover {
+  .but4 span:hover {
     color: #000000;
   }
 
 
-  .box2 {
+  .but5 {
     position: absolute;
     top: 400px;
     right: 30%;
@@ -534,13 +542,14 @@
     padding: 20px;
     text-align: center;
     border: 3px solid white;
+    cursor: pointer;
   }
 
-  .box2:hover {
+  .but5:hover {
     background-color: #FFFFFF;
   }
 
-  .box2 span {
+  .but5 span {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -550,7 +559,7 @@
     color: #FFFFFF
   }
 
-  .box2 span:hover {
+  .but5 span:hover {
     color: #000000;
   }
 
@@ -610,6 +619,7 @@
     width: 240px;
     height: 75px;
     border: 5px solid #000000;
+    cursor: pointer;
   }
 
   .but6:hover {
